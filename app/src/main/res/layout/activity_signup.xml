@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@color/colorWhite"
+    tools:context=".Signup">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/agr"
+        android:layout_marginTop="-30dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fulname"
+        android:hint=" Full Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:layout_marginTop="0dp"
+        />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint=" User Name"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint=" Password "
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmPassword"
+        android:hint="Confirm Password "
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGender"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonMale"
+            android:text="Male"
+            android:checked="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonFemale"
+            android:text="Female"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            />
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/button_rounded"
+        />
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">yacovApp</string>
+    <string name="prefLoginState">loginstate</string>
+    <string name="enter_image_name">Enter Image Name</string>
+
+
+    <string name="facebook_app_id">274102103988023</string>
+    <string name="fb_login_protocol_scheme">fb274102103988023</string>
+
+
+</resources>
